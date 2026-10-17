@@ -424,5 +424,9 @@ FodyWeavers.xsd
 *.msm
 *.msp
 
+# Exclude appsettings files
+**/appsettings.json
+**/appsettings.*.json
+
 # Official VS Code C# Dev Kit Extension exclusion
 #*.lscache
