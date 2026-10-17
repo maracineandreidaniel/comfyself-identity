@@ -1,0 +1,6 @@
+@ComfySelf.Identity_HostAddress = http://localhost:5109
+
+GET {{ComfySelf.Identity_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
